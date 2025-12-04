@@ -1,0 +1,47 @@
+<! DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Example of Script</title>
+
+</head>
+
+<body>
+
+<h1>My First Page with Script</h1>
+
+<p>Click the button below to run the script.</p>
+
+<button onclick="greetUser()">Click here</button>
+
+<!-- Here begins the script code itself -->
+
+<script>
+
+// This is a comment in JavaScript
+
+Function greetUser() {
+
+Var name = prompt("What's your name?") ; // Ask the user for his name
+
+If (name) {
+
+alert("Hello, " + name + "! This is a script in action.") ; // Show the message
+
+} else {
+
+alert("Hello, anonymous world!") ;
+
+}
+
+}
+
+</script>
+
+<!-- End of script -->
+
+</body>
+
+</html
